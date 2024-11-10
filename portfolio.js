@@ -1,4 +1,4 @@
-import { assets } from './asset';
+import {assets} from './asset';
 const calculatePortfolioValue = () => {
     return assets.reduce((total, asset) => {
         return total + (asset.price * asset.quantity);
